@@ -1,0 +1,366 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Harmonia Sans Pro Cyr"; }
+
+ul {
+  list-style-type: none; }
+
+.pd-no {
+  padding: 0; }
+
+.page__title {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  text-align: center; }
+  .page__title .page__name {
+    font-size: 36px;
+    font-family: "Harmonia Sans Pro Cyr";
+    font-weight: 600; }
+    .page__title .page__name span {
+      color: #ff5911; }
+  .page__title .page__text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #495662; }
+
+.bg-white {
+  background-color: #ffffff; }
+
+.my__navigator .nav__first__row {
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  .my__navigator .nav__first__row .nav__con__list {
+    padding-left: 0; }
+    .my__navigator .nav__first__row .nav__con__list i {
+      color: #ff5911;
+      padding-right: 5px; }
+    .my__navigator .nav__first__row .nav__con__list li {
+      display: inline-block;
+      padding-right: 15px; }
+      .my__navigator .nav__first__row .nav__con__list li a {
+        color: #34404b; }
+  .my__navigator .nav__first__row .nav__social__list {
+    text-align: right; }
+    .my__navigator .nav__first__row .nav__social__list li {
+      display: inline-block;
+      padding-right: 10px; }
+      .my__navigator .nav__first__row .nav__social__list li a {
+        color: #34404b; }
+.my__navigator .nav__second__row {
+  background-image: url("../img/Bghead.png");
+  padding-bottom: 30px; }
+  .my__navigator .nav__second__row .mylogo {
+    padding-right: 40px; }
+  .my__navigator .nav__second__row .menu__list li a {
+    font-size: 16px;
+    padding-right: 27px;
+    color: #b8bcc0;
+    font-family: "Harmonia Sans Pro Cyr"; }
+  .my__navigator .nav__second__row .menu__list .active a {
+    color: #ff5911; }
+  .my__navigator .nav__second__row .serach__list {
+    font-size: 18px; }
+    .my__navigator .nav__second__row .serach__list li a {
+      position: relative;
+      color: #b8bcc0; }
+      .my__navigator .nav__second__row .serach__list li a .shop__bucket__number {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 9px;
+        background-color: #34404b;
+        top: -6px;
+        left: 8px;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        font-size: 12px; }
+
+.winterkit {
+  background-image: url("../img/Bg.png");
+  display: block;
+  background-position: center; }
+  .winterkit .winterkit__text {
+    text-align: left;
+    margin-top: 28%;
+    padding-right: 15px; }
+    .winterkit .winterkit__text .winterkit__title {
+      font-size: 35px;
+      color: #ff5911;
+      font-family: "Harmonia Sans Pro Cyr";
+      font-weight: 800; }
+    .winterkit .winterkit__text .winterkit__sale {
+      font-size: 15px;
+      font-weight: 800;
+      color: #3c4751; }
+    .winterkit .winterkit__text .winterkit__exmp {
+      font-size: 16px;
+      color: #495662; }
+    .winterkit .winterkit__text .winterkit__price__list {
+      padding-top: 30px; }
+      .winterkit .winterkit__text .winterkit__price__list li {
+        display: inline-block;
+        padding-right: 15px;
+        font-weight: 600; }
+        .winterkit .winterkit__text .winterkit__price__list li a {
+          color: #3c4751; }
+        .winterkit .winterkit__text .winterkit__price__list li .active {
+          color: #ff5911; }
+  .winterkit .winterkit__rightpic {
+    max-width: 100%;
+    max-height: 100%; }
+
+.arrivals {
+  background-image: url("../img/Main BG.png"); }
+  .arrivals .arrivals__card {
+    margin-top: 15px;
+    width: 254px;
+    height: 350px;
+    background-color: #ffffff;
+    text-align: center; }
+    .arrivals .arrivals__card .card__sizes {
+      display: none;
+      font-size: 14px;
+      color: #34404b; }
+    .arrivals .arrivals__card .card__colors__list li {
+      display: inline-block; }
+    .arrivals .arrivals__card .card__colors__list .card__colors {
+      display: none;
+      width: 13px;
+      height: 13px;
+      border-radius: 7px; }
+    .arrivals .arrivals__card .card__hr {
+      display: none;
+      width: 169px;
+      height: 1px;
+      background-color: #f2f4f7;
+      margin-left: 50px; }
+    .arrivals .arrivals__card .card__img {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      max-width: 150px;
+      max-height: 226px;
+      cursor: pointer;
+      margin-left: 50px; }
+    .arrivals .arrivals__card .card__name {
+      font-size: 18px;
+      color: #34404b;
+      font-family: "Harmonia Sans Pro Cyr";
+      font-weight: bold;
+      cursor: pointer; }
+    .arrivals .arrivals__card .card__summa {
+      font-size: 18px;
+      color: #ff5912;
+      font-family: "Harmonia Sans Pro Cyr";
+      font-weight: bold; }
+    .arrivals .arrivals__card .card__active__list {
+      display: none; }
+  .arrivals .arrivals__card__active .card__img {
+    padding-top: 20px;
+    max-width: 80px;
+    max-height: 100px;
+    margin-left: 38%; }
+  .arrivals .arrivals__card__active .card__name {
+    color: #ff5911;
+    padding-bottom: 15px; }
+  .arrivals .arrivals__card__active .card__sizes {
+    display: block; }
+  .arrivals .arrivals__card__active .card__colors__list {
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    .arrivals .arrivals__card__active .card__colors__list .card__colors {
+      display: block; }
+  .arrivals .arrivals__card__active .card__hr {
+    display: block; }
+  .arrivals .arrivals__card__active .card__summa {
+    display: none; }
+  .arrivals .arrivals__card__active .card__active__list {
+    padding-top: 50px;
+    display: block; }
+    .arrivals .arrivals__card__active .card__active__list li {
+      display: inline-block;
+      padding-left: 10px; }
+      .arrivals .arrivals__card__active .card__active__list li a {
+        color: #34404b; }
+    .arrivals .arrivals__card__active .card__active__list .like i {
+      color: red; }
+  .arrivals .arrivals__dots {
+    margin-top: 45px;
+    height: 60px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 15px; }
+    .arrivals .arrivals__dots .arrivals_dot {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      padding-right: 5px;
+      background: transparent; }
+      .arrivals .arrivals__dots .arrivals_dot span {
+        width: 8px;
+        height: 8px;
+        background-color: #ff5912;
+        display: inline-block;
+        border-radius: 8px; }
+
+.sale {
+  padding-top: 60px;
+  background-image: url("../img/Main BG.png"); }
+  .sale .sale__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    position: relative; }
+    .sale .sale__boxes .sale__left {
+      width: 55%;
+      margin-right: 39px; }
+      .sale .sale__boxes .sale__left .saleimg {
+        position: relative;
+        max-width: 80px;
+        max-height: 80px;
+        padding: 5px;
+        margin-left: 30px; }
+      .sale .sale__boxes .sale__left .onimg {
+        position: absolute;
+        left: 70px;
+        bottom: 0px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center; }
+        .sale .sale__boxes .sale__left .onimg .saletex {
+          font-size: 9px;
+          margin-bottom: 0px; }
+        .sale .sale__boxes .sale__left .onimg .saleperc {
+          text-align: right;
+          font-size: 15px;
+          margin-bottom: 20px; }
+      .sale .sale__boxes .sale__left .sale__left__text {
+        font-size: 18px;
+        margin-top: 15px;
+        font-weight: bold;
+        color: #34404b; }
+      .sale .sale__boxes .sale__left .sale__left__packets {
+        font-size: 12px;
+        color: #34404b; }
+      .sale .sale__boxes .sale__left .sale__left__price {
+        display: inline-block;
+        margin-top: 15px;
+        color: #ff5911;
+        margin-left: 15px;
+        font-weight: bold;
+        font-size: 30px; }
+        .sale .sale__boxes .sale__left .sale__left__price span {
+          font-size: 14px; }
+    .sale .sale__boxes .sale__right {
+      width: 41%;
+      padding-right: 0;
+      text-align: center; }
+      .sale .sale__boxes .sale__right .sale__right__img {
+        margin-top: 15px; }
+      .sale .sale__boxes .sale__right .sale__right__x {
+        font-size: 12px;
+        letter-spacing: 7px;
+        color: #5d6266;
+        padding-top: 15px; }
+
+.best {
+  background-image: url("../img/Main BG.png");
+  padding-bottom: 40px; }
+  .best .best__img {
+    padding: 15px; }
+  .best .best__title {
+    display: inline-block;
+    font-size: 18px;
+    color: #34404b;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer; }
+  .best .diw {
+    max-width: 370px;
+    margin-bottom: 25px; }
+    .best .diw .raintg__list {
+      font-size: 11px;
+      padding-left: 20px;
+      margin-top: 15px;
+      display: inline-block; }
+      .best .diw .raintg__list li {
+        display: inline-block; }
+      .best .diw .raintg__list .active i {
+        content: "\f005";
+        color: #ff5911; }
+    .best .diw .best__price {
+      display: inline-block;
+      padding-left: 40px;
+      font-size: 16px;
+      color: #ff5912;
+      font-weight: bold; }
+    .best .diw .best__tocard {
+      display: none; }
+  .best .diw__active .raintg__list {
+    display: none; }
+  .best .diw__active .best__price {
+    display: none; }
+  .best .diw__active .best__tocard {
+    display: block;
+    color: #ff5911;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer; }
+
+.letter {
+  padding-top: 40px;
+  padding-bottom: 52px;
+  background-image: url("../img/Main BG.png"); }
+  .letter .letter__list {
+    padding-bottom: 25px;
+    padding-top: 25px; }
+    .letter .letter__list li {
+      display: inline-block; }
+      .letter .letter__list li .new__letter {
+        font-size: 18px;
+        color: #ff5912;
+        font-weight: bold;
+        padding-top: 25px; }
+      .letter .letter__list li .join__letter {
+        font-size: 14px;
+        color: #34404b;
+        margin-left: 15px;
+        font-style: italic; }
+  .letter .email__letter {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 14px;
+    color: #7c8791;
+    font-style: italic;
+    display: inline-block;
+    padding-right: 20px; }
+    .letter .email__letter i {
+      color: #ff5911; }
+  .letter button {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #ff5912;
+    border: none;
+    color: white; }
+
+.my__footer {
+  padding-top: 40px; }
+  .my__footer .copy {
+    font-size: 14px;
+    line-height: 30px;
+    color: #28313b;
+    text-align: left; }
+  .my__footer .paymants {
+    font-size: 16px;
+    line-height: 30px;
+    color: #ff5912; }
+  .my__footer ul {
+    list-style-type: circle; }
+    .my__footer ul li a {
+      color: #495662; }
+
+/*# sourceMappingURL=style.css.map */
