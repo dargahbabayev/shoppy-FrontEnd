@@ -1,0 +1,122 @@
+.my__navigator {
+    padding-bottom: 40px;
+}
+
+.showPro {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .single__photo {
+        padding-bottom: 40px;
+    }
+    .all__photos {
+        .photos__list {
+            .active__photo {
+                background-color: #ff5912;
+                border: solid 0.3px #7a7a7a;
+                li {
+                    opacity: 0.5;
+                }
+            }
+            li {
+                width: 83px;
+                background-color: #f4f6f8;
+                max-width: 87px;
+                max-height: 69px;
+                padding: 10px;
+                display: inline-block;
+                margin-right: 12px;
+                margin-left: 15px;
+                transition: all .3s ease-out;
+                cursor: pointer;
+                img {
+                    max-height: 38px;
+                    max-width: 95px;
+                }
+            }
+        }
+    }
+    .showPro__winterkit__title {
+        font-size: 40px;
+        font-weight: bold;
+        color: #ff5912;
+    }
+    .showPro__winterkit__sale {
+        font-size: 17px;
+        font-weight: 800;
+        color: #3c4751;
+    }
+    .showPro__winterkit__exmp {
+        font-size: 16px;
+        line-height: 30px;
+        color: #495662;
+        padding-bottom: 7px;
+    }
+   
+        .size__title {
+            display: inline-block;
+            font-size: 18px;
+            color: #34404b;
+        }
+        .size__list {
+            display: inline-block;
+            li {
+                display: inline-block;
+                font-size: 16px;
+                color: #34404b;
+                padding: 5px;
+                font-weight: 500;
+                transition: all .3s ease-out;
+                cursor: pointer;
+            }
+            .active__size {
+                color: #ff5912;
+            }
+        }
+        .quantity__list{
+            display: inline-block;
+            li {
+                display: inline-block;
+                font-size: 16px;
+                color: #34404b;
+                padding: 5px;
+                font-weight: 500;
+                transition: all .3s ease-out;
+                cursor: pointer;
+            }
+        }
+   
+    .showPro__total__price {
+        padding-top: 45px;
+        .total {
+            padding-top: 5px;
+            color: #34404b;
+            font-weight: 800;
+            font-size: 23px;
+            display: inline-block;
+        }
+        .total__list {
+            display: inline-block;
+            padding-right: 15px;
+            .like {
+                color: red;
+            }
+            li {
+                color: #b8bcc0;
+                display: inline-block;
+                padding: 5px;
+                cursor: pointer;
+                a {
+                    color: #b8bcc0;
+                }
+            }
+        }
+        .total__button {
+            width: 134px;
+            height: 46px;
+            border-radius: 24px;
+            background-color: #ff5912;
+            color:white;
+            cursor: pointer;
+        }
+    }
+}
