@@ -1,0 +1,47 @@
+.arrivals {
+  padding-top: 60px; }
+  .arrivals .arrivals__card .card__hr {
+    display: none;
+    width: 169px;
+    height: 1px;
+    background-color: #f2f4f7;
+    margin-left: 50px; }
+  .arrivals .arrivals__card .card__img {
+    margin-left: 0px; }
+  .arrivals .leftside__boxes {
+    margin-top: 15px; }
+    .arrivals .leftside__boxes .leftside__header {
+      font-size: 29px;
+      color: #ff5912;
+      font-weight: 800;
+      padding: 20px 15px 15px 35px; }
+    .arrivals .leftside__boxes .leftside__lists {
+      padding: 5px 15px 15px 35px; }
+      .arrivals .leftside__boxes .leftside__lists li {
+        font-size: 16px;
+        line-height: 45px;
+        color: #34404b;
+        font-weight: 900;
+        cursor: pointer; }
+  .arrivals .categories .category__list .category__active {
+    color: #ff5912; }
+  .arrivals .sizes .sizes__list li .sizes__box {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #edf0f2;
+    margin-right: 5px; }
+  .arrivals .sizes .sizes__list li .sizes__box__active {
+    border: 4px solid #ff5912; }
+  .arrivals .brands {
+    color: red; }
+    .arrivals .brands .brands__list li .brands__box {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      background-color: #edf0f2;
+      margin-right: 5px; }
+    .arrivals .brands .brands__list li .brand__box__active {
+      border: 4px solid #ff5912; }
+
+/*# sourceMappingURL=list.css.map */

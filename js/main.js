@@ -221,4 +221,45 @@ $(document).ready(function () {
 
 });
 
+//Categories
+$(document).ready(function () {
 
+
+    $(".category__list li").click(function () {
+        if ($(".category__active").length > 0) {
+            $(".category__active").toggleClass("category__active");
+        }
+        $(this).toggleClass("category__active");
+
+    });
+
+
+
+});
+
+//sizes
+$(document).ready(function () {
+
+    $(".sizes__list li").click(function () {
+
+        var This = $(this).children();
+
+        // $(".sizes__boxactive").toggleClass("sizesbox__active");
+
+        $(This).toggleClass("sizes__box__active");
+    });
+
+});
+
+
+//brands
+$(document).ready(function () {
+
+    $(".brands__list li").click(function () {
+
+        var This = $(this).children();
+        
+        $(This).toggleClass("brand__box__active");
+    });
+
+});
