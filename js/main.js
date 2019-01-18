@@ -220,21 +220,14 @@ $(document).ready(function () {
 
 
 });
-
 //Categories
 $(document).ready(function () {
-
-
     $(".category__list li").click(function () {
         if ($(".category__active").length > 0) {
             $(".category__active").toggleClass("category__active");
         }
         $(this).toggleClass("category__active");
-
     });
-
-
-
 });
 
 //sizes
@@ -250,8 +243,6 @@ $(document).ready(function () {
     });
 
 });
-
-
 //brands
 $(document).ready(function () {
 
@@ -273,15 +264,35 @@ $(document).ready(function () {
             right: 0
         });
 
-        $('html, body').css('overflow', 'hidden'); 
+        $('html, body').css('overflow', 'hidden');
     });
 
     $(".mobile__wrap__close").click(function () {
         $(".mobile__wrap").css({
             right: ''
         });
-        $('html, body').css('overflow', 'visible'); 
+        $('html, body').css('overflow', 'visible');
+
+    });
 
 });
 
+
+//for dropdown mobile
+$(document).ready(function () {
+    var items = document.querySelectorAll(".drop .tittle");
+
+    for (var i = 0; i < items.length; i++) {
+
+        items[i].addEventListener("click", function () {
+
+            var active = document.querySelector(".drop .active");
+
+            if (active != null && active != this.parentNode) {
+                console.log(active);
+                active.classList.remove("active");
+            }
+            this.parentNode.classList.toggle("active");
+        })
+    }
 });

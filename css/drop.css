@@ -1,0 +1,55 @@
+@media only screen and (max-width: 768px) {
+    .drop {
+        width: 100%;
+    }
+    .drop .drop__item {
+        margin: 15;
+    }
+    .drop .tittle {
+        position: relative;
+    }
+    .drop .tittle::after {
+        font-family: 'Font Awesome\ 5 Free'; 
+        font-weight: 900;
+        content: "\f067";
+        display: inline-block;
+        position: absolute;
+        right: 2%;
+        top: 28%;
+    }
+    .drop .tittle:hover {
+        background-color: #ffd1bd;
+        opacity: 0.9;
+        cursor: pointer;
+     
+        
+    }
+    .drop .tittle h4 {
+        display: inline-block;
+        color: rgb(243, 243, 243);
+        margin: 5px;
+    }
+    .drop .tittle i {
+        float: right;
+    }
+    .drop .content {
+        display: none;
+        padding: 10px;
+    }
+    .active .tittle {
+      
+    }
+    .active .content {
+        display: block;
+    }
+    .active .tittle::after {
+        font-family: 'Font Awesome\ 5 Free'; 
+        font-weight: 900;
+        content: "\f068";
+       
+        position: absolute;
+        right: 2%;
+        top: 28%;
+        display: inline-block;
+    }
+}

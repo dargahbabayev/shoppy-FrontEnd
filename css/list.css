@@ -6,8 +6,6 @@
     height: 1px;
     background-color: #f2f4f7;
     margin-left: 50px; }
-  .arrivals .arrivals__card .card__img {
-    margin-left: 0px; }
   .arrivals .leftside__boxes {
     margin-top: 15px; }
     .arrivals .leftside__boxes .leftside__header {
@@ -263,6 +261,9 @@
     margin-top: 5%;
     text-align: center; }
 
+  .arrivals .leftside__boxes .leftside__header {
+    font-size: 24px;
+    padding: 20px 15px 15px 25px; }
   .arrivals .arrivals__card .card__img {
     margin-left: 0px; }
   .arrivals .arrivals__card__active .card__img {
