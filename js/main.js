@@ -53,7 +53,7 @@ $(document).ready(function () {
     var owl = $("#index__slider").owlCarousel({
         loop: true,
         pagination: false,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeOut: 2000, //5sec
         items: 1,
         // autoplay:true,
@@ -197,22 +197,22 @@ $(document).ready(function () {
         $(".quantity__count").text(stringnum);
 
     });
-    
+
     $(".minus__quantity").click(function (event) {
 
-      
-        
+
+
         var z = $(".quantity__count").text();
         z = Number(z);
-       
+
         if ((z = z - 1) == 0) {
             $(".quantity__count").css({ "color": " black" });
         }
-       
+
         var stringnum = z.toString()
         if ((z = z - 1) < 0) {
-           stringnum="0";
-          }
+            stringnum = "0";
+        }
         $(".quantity__count").text(stringnum);
 
     });
@@ -258,8 +258,30 @@ $(document).ready(function () {
     $(".brands__list li").click(function () {
 
         var This = $(this).children();
-        
+
         $(This).toggleClass("brand__box__active");
     });
+
+});
+//for mobile menu "div"
+$(document).ready(function () {
+    $(".mobile__icon--bars__div").click(function () {
+        //  $(".body .up").css({ display: "none" });
+        //  $(".mobile__wrap").css({display:"block"});
+
+        $(".mobile__wrap").css({
+            right: 0
+        });
+
+        $('html, body').css('overflow', 'hidden'); 
+    });
+
+    $(".mobile__wrap__close").click(function () {
+        $(".mobile__wrap").css({
+            right: ''
+        });
+        $('html, body').css('overflow', 'visible'); 
+
+});
 
 });
