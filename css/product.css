@@ -96,7 +96,17 @@
   margin-left: 0; }
 
 @media (max-width: 575.98px) {
-  .showPro .single__photo .all__photos .photos__list {
-    width: 65px; } }
+  .page__title .page__name {
+    font-size: 25px; }
+
+  .showPro .all__photos .photos__list li {
+    max-width: 65px; }
+  .showPro .showPro__winterkit__title {
+    font-size: 30px; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .showPro .all__photos .photos__list li {
+    max-width: 60px; }
+  .showPro .showPro__winterkit__title {
+    font-size: 30px; } }
 
 /*# sourceMappingURL=product.css.map */

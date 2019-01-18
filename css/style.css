@@ -303,6 +303,7 @@ ul {
     text-align: center;
     padding-top: 15px; }
     .arrivals .arrivals__dots .arrivals_dot {
+      outline: 0;
       border: 0;
       margin: 0;
       padding: 0;
