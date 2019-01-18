@@ -51,40 +51,38 @@
         color: #495662;
         padding-bottom: 7px;
     }
-   
-        .size__title {
+    .size__title {
+        display: inline-block;
+        font-size: 18px;
+        color: #34404b;
+    }
+    .size__list {
+        display: inline-block;
+        li {
             display: inline-block;
-            font-size: 18px;
+            font-size: 16px;
             color: #34404b;
+            padding: 5px;
+            font-weight: 500;
+            transition: all .3s ease-out;
+            cursor: pointer;
         }
-        .size__list {
+        .active__size {
+            color: #ff5912;
+        }
+    }
+    .quantity__list {
+        display: inline-block;
+        li {
             display: inline-block;
-            li {
-                display: inline-block;
-                font-size: 16px;
-                color: #34404b;
-                padding: 5px;
-                font-weight: 500;
-                transition: all .3s ease-out;
-                cursor: pointer;
-            }
-            .active__size {
-                color: #ff5912;
-            }
+            font-size: 16px;
+            color: #34404b;
+            padding: 5px;
+            font-weight: 500;
+            transition: all .3s ease-out;
+            cursor: pointer;
         }
-        .quantity__list{
-            display: inline-block;
-            li {
-                display: inline-block;
-                font-size: 16px;
-                color: #34404b;
-                padding: 5px;
-                font-weight: 500;
-                transition: all .3s ease-out;
-                cursor: pointer;
-            }
-        }
-   
+    }
     .showPro__total__price {
         padding-top: 45px;
         .total {
@@ -115,8 +113,39 @@
             height: 46px;
             border-radius: 24px;
             background-color: #ff5912;
-            color:white;
+            color: white;
             cursor: pointer;
         }
     }
+}
+
+.arrivals {
+    .arrivals__card {
+        .card__img {
+            margin-left: 0;
+        }
+    }
+}
+
+//MEDIA QUERIES
+@media (max-width: 575.98px) {
+   
+
+    .showPro{
+        .single__photo{
+            .all__photos{
+                .photos__list{
+                    width: 65px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
 }

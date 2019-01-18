@@ -699,7 +699,7 @@ $primary-color:#ff5911;
     .arrivals {
         .arrivals__card {
             .card__img {
-                margin-left: 35%;
+                margin-left: 30%;
             }
         }
         .arrivals__card__active {
@@ -761,6 +761,34 @@ $primary-color:#ff5911;
             .best__title {
                 display: block;
             }
+        }
+    }
+    .letter{
+        .letter__list {
+          
+            li {
+               
+                
+                .join__letter {
+                   
+                    margin-left: 0px;
+                    
+                    
+                }
+            }
+        }
+        i{
+            margin-left: 26px;
+        }
+        .input{
+            padding: 10px;
+            font-size: 14px;
+
+        }
+        button{
+            width: 68px;
+            height: 50px;
+            margin-top: 0;
         }
     }
     .my__footer {

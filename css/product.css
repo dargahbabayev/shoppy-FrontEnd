@@ -92,4 +92,11 @@
       color: white;
       cursor: pointer; }
 
+.arrivals .arrivals__card .card__img {
+  margin-left: 0; }
+
+@media (max-width: 575.98px) {
+  .showPro .single__photo .all__photos .photos__list {
+    width: 65px; } }
+
 /*# sourceMappingURL=product.css.map */

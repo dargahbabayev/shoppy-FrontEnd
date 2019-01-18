@@ -512,7 +512,7 @@ ul {
     display: none; }
 
   .arrivals .arrivals__card .card__img {
-    margin-left: 35%; }
+    margin-left: 30%; }
   .arrivals .arrivals__card__active .card__img {
     margin-left: 38%; }
 
@@ -552,6 +552,18 @@ ul {
     text-align: center; }
     .best .diw .best__title {
       display: block; }
+
+  .letter .letter__list li .join__letter {
+    margin-left: 0px; }
+  .letter i {
+    margin-left: 26px; }
+  .letter .input {
+    padding: 10px;
+    font-size: 14px; }
+  .letter button {
+    width: 68px;
+    height: 50px;
+    margin-top: 0; }
 
   .my__footer .copy {
     font-size: 20px;
